@@ -1,0 +1,9 @@
+2021-06-14 09:42:21,335 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-11 housekeeper] HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=9h56m53s514ms622µs100ns).
+2021-06-14 09:57:52,818 WARN com.example.product.config.JwtRequestFilter [http-nio-8088-exec-4] JWT Token does not begin with Bearer String
+2021-06-14 12:38:02,419 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-11 housekeeper] HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=9m38s214ms531µs800ns).
+2021-06-14 13:34:31,973 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-11 housekeeper] HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=6m58s475ms639µs400ns).
+2021-06-14 14:46:26,110 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-11 housekeeper] HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=30m23s410ms763µs800ns).
+2021-06-14 17:08:43,389 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-11 housekeeper] HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=1m47s435ms352µs).
+2021-06-14 19:11:33,452 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-11 housekeeper] HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=22m18s337ms428µs900ns).
+2021-06-14 19:12:32,566 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-11 housekeeper] HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=1m1s507ms234µs300ns).
+2021-06-14 19:39:12,227 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-11 housekeeper] HikariPool-11 - Thread starvation or clock leap detected (housekeeper delta=20m9s577ms440µs600ns).

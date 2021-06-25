@@ -1,0 +1,45 @@
+2021-06-25 09:41:05,506 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2021-06-25 09:41:05,521 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 30940 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-06-25 09:41:05,523 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-06-25 09:41:05,524 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-06-25 09:41:05,585 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-25 09:41:05,586 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-25 09:41:06,695 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-06-25 09:41:06,766 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 63 ms. Found 2 JPA repository interfaces.
+2021-06-25 09:41:07,175 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3e1cb03e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-25 09:41:07,184 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-25 09:41:07,672 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-06-25 09:41:07,693 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-06-25 09:41:07,694 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-06-25 09:41:07,694 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-06-25 09:41:07,814 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-06-25 09:41:07,814 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2227 ms
+2021-06-25 09:41:07,865 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-06-25 09:41:08,060 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-06-25 09:41:08,069 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-06-25 09:41:08,286 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-25 09:41:08,337 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-25 09:41:08,395 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-25 09:41:08,485 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-06-25 09:41:08,539 DEBUG org.springframework.web.filter.GenericFilterBean [restartedMain] Filter 'jwtRequestFilter' configured for use
+2021-06-25 09:41:08,691 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-25 09:41:08,874 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-25 09:41:09,593 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73a53056, org.springframework.security.web.context.SecurityContextPersistenceFilter@708ad59f, org.springframework.security.web.header.HeaderWriterFilter@1eb8d5e4, org.springframework.web.filter.CorsFilter@2f5a4459, org.springframework.security.web.authentication.logout.LogoutFilter@45101766, com.example.product.config.JwtRequestFilter@4c295ca6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2905caf6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@148bd4cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27cd981, org.springframework.security.web.session.SessionManagementFilter@67c588ee, org.springframework.security.web.access.ExceptionTranslationFilter@56dc89ba, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79a94c5b]
+2021-06-25 09:41:09,936 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-06-25 09:41:09,960 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-06-25 09:41:10,001 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-06-25 09:41:10,004 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-06-25 09:41:10,095 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-25 09:41:10,105 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-25 09:41:10,456 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-06-25 09:41:10,466 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 5.37 seconds (JVM running for 5.903)
+2021-06-25 09:51:46,141 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8088-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-25 09:51:46,143 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-06-25 09:51:46,150 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-2] Completed initialization in 6 ms
+2021-06-25 09:51:46,196 WARN com.example.product.config.JwtRequestFilter [http-nio-8088-exec-2] JWT Token does not begin with Bearer String
+2021-06-25 09:52:18,605 WARN com.example.product.config.JwtRequestFilter [http-nio-8088-exec-3] JWT Token does not begin with Bearer String
+2021-06-25 09:52:47,670 WARN com.example.product.config.JwtRequestFilter [http-nio-8088-exec-6] JWT Token does not begin with Bearer String
+2021-06-25 09:53:19,298 INFO com.example.product.controller.ProductController [http-nio-8088-exec-7] Entered getAllProducts()
+2021-06-25 09:53:19,302 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-7] Entered service getAllProducts()
+2021-06-25 09:53:19,381 ERROR com.example.product.exception.GlobalExceptionHandler [http-nio-8088-exec-7] No Products Found!!
+2021-06-25 09:53:19,397 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8088-exec-7] Resolved [com.example.product.exception.ProductNotFoundException: No Products Found!!]

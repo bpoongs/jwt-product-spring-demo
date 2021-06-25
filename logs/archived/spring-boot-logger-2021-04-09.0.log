@@ -1,0 +1,610 @@
+2021-04-09 15:07:10,984 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2021-04-09 15:07:10,996 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 20912 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 15:07:10,998 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 15:07:10,999 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 15:07:11,069 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-09 15:07:11,070 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-09 15:07:11,855 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 15:07:11,909 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2021-04-09 15:07:12,497 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 15:07:12,506 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:07:12,507 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 15:07:12,507 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 15:07:12,589 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 15:07:12,589 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1518 ms
+2021-04-09 15:07:12,644 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-09 15:07:12,761 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-09 15:07:12,768 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 15:07:12,857 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:07:12,903 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 15:07:12,955 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-09 15:07:12,975 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 15:07:13,108 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-09 15:07:13,238 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 15:07:13,367 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-09 15:07:13,381 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:07:13,414 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 15:07:13,418 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 15:07:13,801 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 15:07:13,806 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:07:13,958 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 15:07:13,967 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 3.327 seconds (JVM running for 3.702)
+2021-04-09 15:08:54,084 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8088-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 15:08:54,084 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-09 15:08:54,086 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-1] Completed initialization in 1 ms
+2021-04-09 15:08:54,117 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered getAllProducts()
+2021-04-09 15:08:54,117 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service getAllProducts()
+2021-04-09 15:08:54,275 ERROR com.example.product.exception.GlobalExceptionHandler [http-nio-8088-exec-1] No Products Found!!
+2021-04-09 15:08:54,336 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8088-exec-1] Resolved [com.example.product.exception.ProductNotFoundException: No Products Found!!]
+2021-04-09 15:10:41,781 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:10:41,783 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:10:41,785 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-6] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 15:10:41,786 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2021-04-09 15:10:41,788 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2021-04-09 15:10:41,840 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 20912 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 15:10:41,840 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 15:10:41,841 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 15:10:42,005 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 15:10:42,015 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2021-04-09 15:10:42,097 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 15:10:42,098 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:10:42,098 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 15:10:42,098 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 15:10:42,122 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 15:10:42,122 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 279 ms
+2021-04-09 15:10:42,138 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-09 15:10:42,140 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-09 15:10:42,141 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 15:10:42,158 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:10:42,161 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 15:10:42,165 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 15:10:42,191 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 15:10:42,195 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 15:10:42,196 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:10:42,200 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 15:10:42,280 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:10:42,283 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 15:10:42,283 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 15:10:42,326 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 15:10:42,329 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 0.511 seconds (JVM running for 212.063)
+2021-04-09 15:10:42,330 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 15:12:01,748 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-9] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:12:01,749 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:12:01,750 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-9] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 15:12:01,750 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown initiated...
+2021-04-09 15:12:01,752 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown completed.
+2021-04-09 15:12:01,804 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 20912 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 15:12:01,804 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 15:12:01,804 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 15:12:01,947 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 15:12:01,958 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-04-09 15:12:02,041 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 15:12:02,042 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:12:02,043 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 15:12:02,043 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 15:12:02,059 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 15:12:02,059 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 253 ms
+2021-04-09 15:12:02,072 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-04-09 15:12:02,073 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-04-09 15:12:02,074 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 15:12:02,087 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:12:02,090 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 15:12:02,095 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 15:12:02,120 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 15:12:02,133 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 15:12:02,133 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:12:02,161 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 15:12:02,204 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:12:02,207 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 15:12:02,207 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 15:12:02,240 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 15:12:02,242 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 0.462 seconds (JVM running for 291.977)
+2021-04-09 15:12:02,244 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 15:12:14,987 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2021-04-09 15:12:14,993 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 5796 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 15:12:14,996 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 15:12:14,997 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 15:12:15,050 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-09 15:12:15,050 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-09 15:12:15,681 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 15:12:15,730 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2021-04-09 15:12:16,342 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 15:12:16,353 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:12:16,353 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 15:12:16,353 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 15:12:16,433 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 15:12:16,433 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1382 ms
+2021-04-09 15:12:16,490 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-09 15:12:16,592 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-09 15:12:16,598 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 15:12:16,690 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:12:16,744 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 15:12:16,797 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 15:12:16,807 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-09 15:12:17,028 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-09 15:12:17,244 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 15:12:17,255 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-09 15:12:17,272 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:12:17,301 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 15:12:17,305 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 15:12:17,950 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 15:12:17,958 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:12:18,148 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 15:12:18,157 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 3.507 seconds (JVM running for 3.922)
+2021-04-09 15:12:20,615 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8088-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 15:12:20,615 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-09 15:12:20,616 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-1] Completed initialization in 1 ms
+2021-04-09 15:12:20,637 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered getAllProducts()
+2021-04-09 15:12:20,638 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service getAllProducts()
+2021-04-09 15:12:20,751 ERROR com.example.product.exception.GlobalExceptionHandler [http-nio-8088-exec-1] No Products Found!!
+2021-04-09 15:12:20,813 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8088-exec-1] Resolved [com.example.product.exception.ProductNotFoundException: No Products Found!!]
+2021-04-09 15:12:39,825 INFO com.example.product.controller.ProductController [http-nio-8088-exec-4] Entered addProducts()
+2021-04-09 15:12:39,825 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service addProducts()
+2021-04-09 15:14:10,236 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:14:10,238 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:14:10,240 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-6] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 15:14:10,241 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2021-04-09 15:14:10,243 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2021-04-09 15:14:10,303 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 5796 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 15:14:10,304 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 15:14:10,304 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 15:14:10,459 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 15:14:10,469 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2021-04-09 15:14:10,561 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 15:14:10,562 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:14:10,562 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 15:14:10,562 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 15:14:10,583 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 15:14:10,584 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 277 ms
+2021-04-09 15:14:10,600 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-09 15:14:10,602 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-09 15:14:10,602 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 15:14:10,619 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:14:10,623 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 15:14:10,630 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 15:14:10,653 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 15:14:10,662 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 15:14:10,663 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:14:10,694 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 15:14:10,748 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:14:10,752 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 15:14:10,753 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 15:14:10,783 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 15:14:10,785 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 0.513 seconds (JVM running for 116.55)
+2021-04-09 15:14:10,788 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 15:14:34,521 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-9] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:14:34,521 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:14:34,522 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-9] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 15:14:34,522 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown initiated...
+2021-04-09 15:14:34,523 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown completed.
+2021-04-09 15:14:34,581 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 5796 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 15:14:34,581 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 15:14:34,581 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 15:14:34,712 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 15:14:34,721 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2021-04-09 15:14:34,802 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 15:14:34,803 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:14:34,803 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 15:14:34,804 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 15:14:34,823 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 15:14:34,824 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 240 ms
+2021-04-09 15:14:34,837 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-04-09 15:14:34,839 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-04-09 15:14:34,840 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 15:14:34,851 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:14:34,854 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 15:14:34,860 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 15:14:34,881 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 15:14:34,892 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 15:14:34,892 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:14:34,922 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 15:14:34,972 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:14:34,976 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 15:14:34,977 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 15:14:35,015 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 15:14:35,018 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 0.465 seconds (JVM running for 140.784)
+2021-04-09 15:14:35,020 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 15:14:55,852 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2021-04-09 15:14:55,858 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 21008 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 15:14:55,859 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 15:14:55,859 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 15:14:55,907 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-09 15:14:55,907 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-09 15:14:56,568 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 15:14:56,612 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2021-04-09 15:14:57,151 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 15:14:57,160 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:14:57,160 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 15:14:57,160 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 15:14:57,240 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 15:14:57,241 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1332 ms
+2021-04-09 15:14:57,287 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-09 15:14:57,408 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-09 15:14:57,415 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 15:14:57,519 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 15:14:57,572 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 15:14:57,629 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-09 15:14:57,645 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 15:14:57,762 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-09 15:14:57,907 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 15:14:58,029 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-09 15:14:58,045 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 15:14:58,077 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 15:14:58,079 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 15:14:58,544 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 15:14:58,552 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 15:14:58,724 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 15:14:58,735 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 3.221 seconds (JVM running for 3.612)
+2021-04-09 15:15:01,184 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8088-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 15:15:01,184 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-04-09 15:15:01,185 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-2] Completed initialization in 1 ms
+2021-04-09 15:15:01,203 INFO com.example.product.controller.ProductController [http-nio-8088-exec-2] Entered getAllProducts()
+2021-04-09 15:15:01,205 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-2] Entered service getAllProducts()
+2021-04-09 15:15:01,324 ERROR com.example.product.exception.GlobalExceptionHandler [http-nio-8088-exec-2] No Products Found!!
+2021-04-09 15:15:01,377 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8088-exec-2] Resolved [com.example.product.exception.ProductNotFoundException: No Products Found!!]
+2021-04-09 15:15:05,589 INFO com.example.product.controller.ProductController [http-nio-8088-exec-3] Entered addProducts()
+2021-04-09 15:15:05,589 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-3] Entered service addProducts()
+2021-04-09 15:15:05,616 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-3] Entered service getAllProducts()
+2021-04-09 15:15:18,054 INFO com.example.product.controller.ProductController [http-nio-8088-exec-4] Entered addProducts()
+2021-04-09 15:15:18,055 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service addProducts()
+2021-04-09 15:15:18,056 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service getAllProducts()
+2021-04-09 15:16:19,676 INFO com.example.product.controller.ProductController [http-nio-8088-exec-7] Entered updateProducts()
+2021-04-09 15:16:19,678 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-7] Entered service updateProducts()
+2021-04-09 15:16:19,696 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-7] Entered service getAllProducts()
+2021-04-09 15:16:28,034 INFO com.example.product.controller.ProductController [http-nio-8088-exec-8] Entered getAllProducts()
+2021-04-09 15:16:28,035 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-8] Entered service getAllProducts()
+2021-04-09 15:16:48,298 INFO com.example.product.controller.ProductController [http-nio-8088-exec-9] Entered deleteProducts()
+2021-04-09 15:16:48,298 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-9] Entered service deleteProducts()
+2021-04-09 15:16:57,446 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-10] Entered service getProducts()
+2021-04-09 15:16:57,454 ERROR org.apache.juli.logging.DirectJDKLog [http-nio-8088-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.base/java.util.Optional.get(Optional.java:141)
+	at com.example.product.service.ProductServiceImpl.getProducts(ProductServiceImpl.java:58)
+	at com.example.product.controller.ProductController.getProducts(ProductController.java:67)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2021-04-09 15:17:17,198 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-2] Entered service getProducts()
+2021-04-09 16:13:40,992 INFO com.example.product.controller.ProductController [http-nio-8088-exec-4] Entered getAllProducts()
+2021-04-09 16:13:40,996 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service getAllProducts()
+2021-04-09 16:17:00,389 INFO com.example.product.controller.ProductController [http-nio-8088-exec-7] Entered getAllProducts()
+2021-04-09 16:17:00,390 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-7] Entered service getAllProducts()
+2021-04-09 16:17:57,810 INFO com.example.product.controller.ProductController [http-nio-8088-exec-8] Entered getAllProducts()
+2021-04-09 16:17:57,810 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-8] Entered service getAllProducts()
+2021-04-09 16:18:20,730 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered addProducts()
+2021-04-09 16:18:20,731 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service addProducts()
+2021-04-09 16:18:20,739 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service getAllProducts()
+2021-04-09 16:18:31,035 INFO com.example.product.controller.ProductController [http-nio-8088-exec-3] Entered addProducts()
+2021-04-09 16:18:31,035 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-3] Entered service addProducts()
+2021-04-09 16:18:31,040 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-3] Entered service getAllProducts()
+2021-04-09 16:18:48,523 INFO com.example.product.controller.ProductController [http-nio-8088-exec-4] Entered getAllProducts()
+2021-04-09 16:18:48,524 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service getAllProducts()
+2021-04-09 16:19:52,651 INFO com.example.product.controller.ProductController [http-nio-8088-exec-7] Entered getAllProducts()
+2021-04-09 16:19:52,653 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-7] Entered service getAllProducts()
+2021-04-09 16:33:34,279 INFO com.example.product.controller.ProductController [http-nio-8088-exec-9] Entered getAllProducts()
+2021-04-09 16:33:34,280 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-9] Entered service getAllProducts()
+2021-04-09 16:34:18,227 INFO com.example.product.controller.ProductController [http-nio-8088-exec-10] Entered getAllProducts()
+2021-04-09 16:34:18,227 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-10] Entered service getAllProducts()
+2021-04-09 16:37:26,818 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered getAllProducts()
+2021-04-09 16:37:26,819 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service getAllProducts()
+2021-04-09 16:37:44,059 INFO com.example.product.controller.ProductController [http-nio-8088-exec-4] Entered addProducts()
+2021-04-09 16:37:44,059 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service addProducts()
+2021-04-09 16:37:44,061 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service getAllProducts()
+2021-04-09 17:35:54,879 INFO com.example.product.controller.ProductController [http-nio-8088-exec-6] Entered getAllProducts()
+2021-04-09 17:35:54,888 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-6] Entered service getAllProducts()
+2021-04-09 17:35:57,003 INFO com.example.product.controller.ProductController [http-nio-8088-exec-7] Entered getAllProducts()
+2021-04-09 17:35:57,004 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-7] Entered service getAllProducts()
+2021-04-09 17:36:50,617 INFO com.example.product.controller.ProductController [http-nio-8088-exec-8] Entered getAllProducts()
+2021-04-09 17:36:50,618 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-8] Entered service getAllProducts()
+2021-04-09 17:37:02,076 INFO com.example.product.controller.ProductController [http-nio-8088-exec-9] Entered getAllProducts()
+2021-04-09 17:37:02,077 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-9] Entered service getAllProducts()
+2021-04-09 17:37:12,087 INFO com.example.product.controller.ProductController [http-nio-8088-exec-10] Entered getAllProducts()
+2021-04-09 17:37:12,088 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-10] Entered service getAllProducts()
+2021-04-09 17:37:19,024 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered deleteProducts()
+2021-04-09 17:37:19,024 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service deleteProducts()
+2021-04-09 17:37:21,741 INFO com.example.product.controller.ProductController [http-nio-8088-exec-4] Entered deleteProducts()
+2021-04-09 17:37:21,742 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service deleteProducts()
+2021-04-09 17:37:23,603 INFO com.example.product.controller.ProductController [http-nio-8088-exec-6] Entered deleteProducts()
+2021-04-09 17:37:23,604 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-6] Entered service deleteProducts()
+2021-04-09 17:37:26,752 INFO com.example.product.controller.ProductController [http-nio-8088-exec-8] Entered deleteProducts()
+2021-04-09 17:37:26,753 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-8] Entered service deleteProducts()
+2021-04-09 17:37:41,380 INFO com.example.product.controller.ProductController [http-nio-8088-exec-10] Entered addProducts()
+2021-04-09 17:37:41,381 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-10] Entered service addProducts()
+2021-04-09 17:37:41,386 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-10] Entered service getAllProducts()
+2021-04-09 17:37:56,229 INFO com.example.product.controller.ProductController [http-nio-8088-exec-2] Entered addProducts()
+2021-04-09 17:37:56,230 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-2] Entered service addProducts()
+2021-04-09 17:37:56,234 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-2] Entered service getAllProducts()
+2021-04-09 17:38:07,468 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered addProducts()
+2021-04-09 17:38:07,470 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service addProducts()
+2021-04-09 17:38:07,476 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service getAllProducts()
+2021-04-09 17:45:05,358 INFO com.example.product.controller.ProductController [http-nio-8088-exec-4] Entered getAllProducts()
+2021-04-09 17:45:05,359 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service getAllProducts()
+2021-04-09 17:45:27,487 INFO com.example.product.controller.ProductController [http-nio-8088-exec-5] Entered getAllProducts()
+2021-04-09 17:45:27,488 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-5] Entered service getAllProducts()
+2021-04-09 17:45:34,925 INFO com.example.product.controller.ProductController [http-nio-8088-exec-6] Entered getAllProducts()
+2021-04-09 17:45:34,926 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-6] Entered service getAllProducts()
+2021-04-09 17:46:17,417 INFO com.example.product.controller.ProductController [http-nio-8088-exec-7] Entered getAllProducts()
+2021-04-09 17:46:17,417 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-7] Entered service getAllProducts()
+2021-04-09 17:46:31,245 INFO com.example.product.controller.ProductController [http-nio-8088-exec-8] Entered getAllProducts()
+2021-04-09 17:46:31,246 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-8] Entered service getAllProducts()
+2021-04-09 17:46:36,511 INFO com.example.product.controller.ProductController [http-nio-8088-exec-9] Entered getAllProducts()
+2021-04-09 17:46:36,513 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-9] Entered service getAllProducts()
+2021-04-09 17:51:02,317 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-2] Entered service getProducts()
+2021-04-09 17:51:29,317 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered getAllProducts()
+2021-04-09 17:51:29,317 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service getAllProducts()
+2021-04-09 17:52:05,831 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-3] Entered service getProducts()
+2021-04-09 17:52:16,779 INFO com.example.product.controller.ProductController [http-nio-8088-exec-5] Entered updateProducts()
+2021-04-09 17:52:16,780 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-5] Entered service updateProducts()
+2021-04-09 17:52:16,790 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-5] Entered service getAllProducts()
+2021-04-09 17:52:16,813 INFO com.example.product.controller.ProductController [http-nio-8088-exec-6] Entered getAllProducts()
+2021-04-09 17:52:16,814 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-6] Entered service getAllProducts()
+2021-04-09 17:52:24,464 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-7] Entered service getProducts()
+2021-04-09 17:52:34,135 INFO com.example.product.controller.ProductController [http-nio-8088-exec-8] Entered updateProducts()
+2021-04-09 17:52:34,136 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-8] Entered service updateProducts()
+2021-04-09 17:52:34,140 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-8] Entered service getAllProducts()
+2021-04-09 17:52:34,173 INFO com.example.product.controller.ProductController [http-nio-8088-exec-9] Entered getAllProducts()
+2021-04-09 17:52:34,174 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-9] Entered service getAllProducts()
+2021-04-09 17:52:38,743 INFO com.example.product.controller.ProductController [http-nio-8088-exec-2] Entered deleteProducts()
+2021-04-09 17:52:38,743 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-2] Entered service deleteProducts()
+2021-04-09 17:53:05,773 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered addProducts()
+2021-04-09 17:53:05,774 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service addProducts()
+2021-04-09 17:53:05,779 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service getAllProducts()
+2021-04-09 17:53:17,097 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-3] Entered service getProducts()
+2021-04-09 17:53:26,058 INFO com.example.product.controller.ProductController [http-nio-8088-exec-4] Entered updateProducts()
+2021-04-09 17:53:26,058 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service updateProducts()
+2021-04-09 17:53:26,061 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-4] Entered service getAllProducts()
+2021-04-09 17:53:26,089 INFO com.example.product.controller.ProductController [http-nio-8088-exec-5] Entered getAllProducts()
+2021-04-09 17:53:26,090 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-5] Entered service getAllProducts()
+2021-04-09 18:49:49,795 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=31m49s402ms285µs200ns).
+2021-04-09 19:08:47,028 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s951ms514µs700ns).
+2021-04-09 19:35:24,767 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m37s334ms124µs100ns).
+2021-04-09 19:43:20,857 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m26s72ms533µs600ns).
+2021-04-09 19:54:03,937 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 19:54:03,971 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 19:54:03,993 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-6] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 19:54:03,997 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2021-04-09 19:54:04,010 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2021-04-09 19:54:04,268 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 21008 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 19:54:04,271 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 19:54:04,271 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 19:54:04,588 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 19:54:04,601 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2021-04-09 19:54:04,826 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 19:54:04,826 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 19:54:04,827 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 19:54:04,827 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 19:54:04,845 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 19:54:04,846 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 571 ms
+2021-04-09 19:54:04,862 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-09 19:54:04,865 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-09 19:54:04,866 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 19:54:04,888 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 19:54:04,895 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 19:54:04,907 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 19:54:04,953 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 19:54:04,983 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 19:54:04,984 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 19:54:05,040 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 19:54:05,159 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 19:54:05,166 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 19:54:05,168 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 19:54:05,248 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 19:54:05,252 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 1.028 seconds (JVM running for 16750.129)
+2021-04-09 19:54:05,255 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 19:54:23,430 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8088-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-09 19:54:23,430 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-04-09 19:54:23,433 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8088-exec-1] Completed initialization in 2 ms
+2021-04-09 19:54:23,437 INFO com.example.product.controller.ProductController [http-nio-8088-exec-1] Entered getAllProducts()
+2021-04-09 19:54:23,438 INFO com.example.product.service.ProductServiceImpl [http-nio-8088-exec-1] Entered service getAllProducts()
+2021-04-09 19:54:23,450 ERROR com.example.product.exception.GlobalExceptionHandler [http-nio-8088-exec-1] No Products Found!!
+2021-04-09 19:54:23,456 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-8088-exec-1] Resolved [com.example.product.exception.ProductNotFoundException: No Products Found!!]
+2021-04-09 19:55:10,159 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2021-04-09 19:55:10,160 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 14024 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 19:55:10,163 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 19:55:10,163 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 19:55:10,206 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-09 19:55:10,206 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-09 19:55:10,844 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 19:55:10,890 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+2021-04-09 19:55:11,471 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 19:55:11,482 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 19:55:11,483 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 19:55:11,483 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 19:55:11,560 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 19:55:11,560 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1353 ms
+2021-04-09 19:55:11,608 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-04-09 19:55:11,711 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-04-09 19:55:11,715 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 19:55:11,813 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 19:55:11,883 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 19:55:11,939 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 19:55:11,949 INFO org.hibernate.Version [task-1] HHH000412: Hibernate ORM core version 5.4.23.Final
+2021-04-09 19:55:12,124 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [task-1] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-09 19:55:12,267 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 19:55:12,284 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-04-09 19:55:12,302 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 19:55:12,337 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 19:55:12,338 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 19:55:12,873 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 19:55:12,879 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 19:55:13,034 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 19:55:13,046 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 3.235 seconds (JVM running for 3.653)
+2021-04-09 19:59:01,806 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-6] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 19:59:01,807 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-6] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 19:59:01,811 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-6] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 19:59:01,812 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown initiated...
+2021-04-09 19:59:01,814 INFO com.zaxxer.hikari.HikariDataSource [Thread-6] HikariPool-1 - Shutdown completed.
+2021-04-09 19:59:01,869 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 14024 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 19:59:01,869 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 19:59:01,869 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 19:59:02,023 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 19:59:02,037 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2021-04-09 19:59:02,137 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 19:59:02,138 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 19:59:02,138 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 19:59:02,138 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 19:59:02,161 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 19:59:02,161 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 290 ms
+2021-04-09 19:59:02,172 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-04-09 19:59:02,174 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-04-09 19:59:02,174 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 19:59:02,188 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 19:59:02,191 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 19:59:02,196 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 19:59:02,216 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 19:59:02,229 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 19:59:02,231 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 19:59:02,256 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 19:59:02,306 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 19:59:02,311 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 19:59:02,312 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 19:59:02,347 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 19:59:02,349 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 0.503 seconds (JVM running for 232.957)
+2021-04-09 19:59:02,351 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 20:00:45,231 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-9] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 20:00:45,231 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-9] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 20:00:45,233 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-9] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 20:00:45,233 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown initiated...
+2021-04-09 20:00:45,235 INFO com.zaxxer.hikari.HikariDataSource [Thread-9] HikariPool-2 - Shutdown completed.
+2021-04-09 20:00:45,294 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 14024 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 20:00:45,295 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 20:00:45,296 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 20:00:45,439 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 20:00:45,450 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-04-09 20:00:45,534 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 20:00:45,535 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 20:00:45,536 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 20:00:45,536 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 20:00:45,560 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 20:00:45,561 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 262 ms
+2021-04-09 20:00:45,574 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-04-09 20:00:45,576 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-04-09 20:00:45,576 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 20:00:45,590 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 20:00:45,594 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 20:00:45,600 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 20:00:45,616 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 20:00:45,626 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 20:00:45,627 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 20:00:45,647 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 20:00:45,689 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 20:00:45,693 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 20:00:45,693 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 20:00:45,731 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 20:00:45,733 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 0.467 seconds (JVM running for 336.34)
+2021-04-09 20:00:45,734 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 20:02:34,570 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 20:02:34,570 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-15] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 20:02:34,571 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-15] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 20:02:34,571 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-3 - Shutdown initiated...
+2021-04-09 20:02:34,572 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-3 - Shutdown completed.
+2021-04-09 20:02:34,626 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 14024 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 20:02:34,626 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 20:02:34,626 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 20:02:34,736 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 20:02:34,745 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-04-09 20:02:34,815 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 20:02:34,816 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 20:02:34,817 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 20:02:34,817 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 20:02:34,837 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 20:02:34,838 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 210 ms
+2021-04-09 20:02:34,848 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2021-04-09 20:02:34,850 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2021-04-09 20:02:34,851 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 20:02:34,864 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 20:02:34,867 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 20:02:34,871 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 20:02:34,887 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 20:02:34,900 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 20:02:34,901 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 20:02:34,914 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 20:02:34,951 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 20:02:34,958 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 20:02:34,958 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 20:02:34,984 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 20:02:34,985 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 0.381 seconds (JVM running for 445.592)
+2021-04-09 20:02:34,986 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 20:23:50,192 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-4 housekeeper] HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=2m14s903ms736µs800ns).
+2021-04-09 21:03:01,230 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-4 housekeeper] HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=11m40s595ms111µs701ns).
+2021-04-09 21:09:09,191 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-21] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 21:09:09,200 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [Thread-21] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-09 21:09:09,206 WARN org.springframework.beans.factory.support.DisposableBeanAdapter [Thread-21] Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-192]
+2021-04-09 21:09:09,207 INFO com.zaxxer.hikari.HikariDataSource [Thread-21] HikariPool-4 - Shutdown initiated...
+2021-04-09 21:09:09,214 INFO com.zaxxer.hikari.HikariDataSource [Thread-21] HikariPool-4 - Shutdown completed.
+2021-04-09 21:09:09,367 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ProductApplication using Java 14.0.2 on DESKTOP-QN882RI with PID 14024 (D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo\target\classes started by Poongs in D:\Poongs\eclipse-workspace\product-demo-workspace\ProductDemo)
+2021-04-09 21:09:09,367 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-04-09 21:09:09,368 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-04-09 21:09:09,519 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2021-04-09 21:09:09,533 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interfaces.
+2021-04-09 21:09:09,640 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8088 (http)
+2021-04-09 21:09:09,641 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8088"]
+2021-04-09 21:09:09,641 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-04-09 21:09:09,641 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2021-04-09 21:09:09,658 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-04-09 21:09:09,658 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 287 ms
+2021-04-09 21:09:09,671 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2021-04-09 21:09:09,674 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2021-04-09 21:09:09,675 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:test'
+2021-04-09 21:09:09,690 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-09 21:09:09,694 INFO org.hibernate.jpa.internal.util.LogHelper [task-1] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-09 21:09:09,700 INFO org.hibernate.dialect.Dialect [task-1] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-09 21:09:09,718 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-09 21:09:09,732 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [task-1] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-09 21:09:09,733 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [task-1] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-09 21:09:09,757 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [task-2] LiveReload server is running on port 35729
+2021-04-09 21:09:09,793 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8088"]
+2021-04-09 21:09:09,795 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8088 (http) with context path ''
+2021-04-09 21:09:09,796 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Triggering deferred initialization of Spring Data repositories…
+2021-04-09 21:09:09,825 INFO org.springframework.data.repository.config.DeferredRepositoryInitializationListener [restartedMain] Spring Data repositories initialized!
+2021-04-09 21:09:09,827 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ProductApplication in 0.496 seconds (JVM running for 4440.434)
+2021-04-09 21:09:09,828 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-04-09 21:26:41,703 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-5 housekeeper] HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=11m31s848ms682µs701ns).
+2021-04-09 23:30:07,815 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-5 housekeeper] HikariPool-5 - Thread starvation or clock leap detected (housekeeper delta=26m54s629ms329µs700ns).
